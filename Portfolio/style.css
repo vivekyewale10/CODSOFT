@@ -1,0 +1,220 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #081b29;
+}
+header{
+    background-color: transparent;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-size: 45px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    padding-left:50px;
+    
+}
+nav a{
+    font-size: 29px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right:20px ;
+}
+nav a:hover{
+    color:#00abf0 ;
+}
+.home {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.homec{
+    background:bac;
+    max-width: 600px;
+}
+.homec h1{
+    font-size: 57px;
+    font-weight: 700;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.homec h3{
+    font-size: 33px;
+    font-weight: 700;
+    color:#00abf0 ;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.homec p{
+    font-size: 16px;
+    color: azure;
+    margin: 20px 0 40px;
+
+}
+.homec .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+   
+}
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+}
+img{
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 420px;
+    height: 450px;
+    background-color: azure;
+    margin-left: 365px;
+    margin-top: -288px;
+    border-radius: 20px;
+
+}
+@keyframes appear {
+    from { 
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+    
+    
+    }
+    #Services{
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+    
+    #second .btn-box{
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+        height: 50px;
+    
+    }
+    
+    .btn-box a {
+        position:relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 100%;
+        background:transparent;
+        border: 2px solid #00abf0;
+        border-radius: 8px;
+        font-size: 19px;
+        color:#00abf0;
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: 1px;
+       
+    }
+    #naav{
+        font-family:'Courier New', Courier, monospace
+    }
+
+    main
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#081b29;
+        flex-direction: column;
+    }
+    #box{
+        border: 3px solid white ;
+        padding: 20px 20px;
+        border-radius: 20px;
+    }
+    #box h2{
+        font-size: 40px;
+        color: aliceblue;
+    }
+    #box h4{
+        font-size: 25px;
+        font-weight: 200;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: aliceblue;
+
+    }
+    main h1{
+        color: aliceblue;
+        font-size: 50px;
+    }
+    #box #inp{
+        width: 400px;
+        height: 25px;
+        border-radius: 5px;
+    }
+    #box #inp1{
+        width: 400px;
+        height: 90px;
+        border-radius: 5px;
+
+    }
+    button{
+        margin-top: 10px;
+        font-size: 15px;
+        padding: 10px;
+        background-color: #00abf0;
+        color: floralwhite;
+        border: 1px solid white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    button:hover{
+        background-color: aliceblue;
+        color: #00abf0;
+    }
+  
+    
+
+
+
+    
+    
